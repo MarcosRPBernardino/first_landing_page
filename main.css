@@ -163,18 +163,18 @@ footer {
         font-size: 20px;
 }
 
-.contact-methods {
-        position: relative;
-}
-
 .follow {
-        position: relative;
-        top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
 }
 
 .address {
-        position: relative;
-        top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
 }
 
-
+.follow h3 {
+        text-align: center;
+}
